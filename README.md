@@ -6,8 +6,8 @@ The author of the game engine GitHub:https://github.com/sg-first/Life-Fire-2D-en
 #英文渣表示不丢人了233.
 此游戏正在开发ing,所以素材包未上传!!!
 所以泥萌运行的时候肯定是啥都木有啦(不想丢人 然而已经....).
-首先 此游戏使用元火游戏引擎制作,这是一个非常容易上手的2d游戏引擎,基于Qt,使用C++开发(当然不是我做的233).
-游戏引擎作者github地址:https://github.com/sg-first/Life-Fire-2D-engine.
+首先,此游戏使用元火游戏引擎制作,这是一个非常容易上手的跨平台2d游戏引擎,基于Qt,使用C++开发(当然不是我做的233).
+游戏引擎github地址:https://github.com/sg-first/Life-Fire-2D-engine.
 嗷,这个辣鸡项目是个音乐类的游戏,就是按键滑块随着音乐节拍下落然后泥萌去按按按按的无聊游戏.
 
 #由某大神带着本高一学渣废柴制作...
