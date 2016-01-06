@@ -1,9 +1,11 @@
-# MyGame_OBJ_1
+# 此游戏为手机游戏 其名暂定为:Flower Dance
 This is a music game, name not ready yet.Please do not have the too big hope.2333333
 This program through the game engine - Life-fire-2D development, this engine based on Qt
 The author of the game engine GitHub:https://github.com/sg-first/Life-Fire-2D-engine
 
 #哎呦不行 英文渣表示不丢人了233
+此游戏正在开发ing 所以素材包未上传!!!
+所以泥萌运行的时候肯定是啥都木有啦(不想丢人 然而已经....
 首先 此游戏使用元火游戏引擎制作 这是一个巨牛[bi]的2d游戏引擎 基于qt 使用C++开发(当然不是我做的
 游戏引擎作者github地址:https://github.com/sg-first/Life-Fire-2D-engine
 嗷 这个辣鸡项目是个音乐类的游戏 就是按键滑块随着音乐节拍下落然后泥萌去按按按按的无聊游戏.
