@@ -5,6 +5,10 @@
 #include <QSpinBox>
 #include <QSlider>
 #include <QHBoxLayout>
+#include <QJsonDocument>
+#include <QJsonArray>
+#include <QJsonObject>
+
 
 int Sum;        //图元计数的全局变量
 bool Stop = 0;  //暂停音乐的全局变量
@@ -113,14 +117,49 @@ void maincall::GameLvUI(ParametersStru* GameLM_1)//开始游戏
 
 }
 
-/*void maincall::Level_1() //关卡1の判断
+void Music_Json()
 {
-    //
-   //
-  
+    QJsonDocument Lv1_json = ReadTXT("E:/game/Lv1.json");//读取json文件
+   // QJsonDocument Lv1_json;
+    QJsonDocument::setObject(Lv1_json);
+    QByetArray byte_array = QJsonDocument::toJson(QJsonDocument::Compact);
+    QString json_str(byte_array);
 
+    QJsonParseError json_error;
+    QJsonDocument parse_doucment = QJsonDocument::fromJson(byte_array, &json_error);
+    if(json_error.error == QJsonParseError::NoError)
+    {
+        if(parse_doucment.isObject())
+        {
+            QJsonObject obj = parse_doucment.object();
+            if(obj.contains("Lv1"))
+            {
+        QJsonValue name_value = obj.take("Lv1");
+        if(name_value.isString())
+        {
+            QString name = name_value.toString();
+        }
+    }
+    if(obj.contains("Time"))
+    {
+        QJsonValue version_value = obj.take("Time");
+        if(version_value.isDouble())
+        {
+    int version = version_value.toVariant().toInt();
+        }
+    }
+    if(obj.contains("Button"))
+    {
+        QJsonValue version_value = obj.take("Button");
+        if(version_value.isBool())
+        {
+    bool flag = version_value.toBool();
+        }
+    }
+        }
+    }
 
-}*/
+}
 
 void maincall::MenuUI() //菜单按钮
 {

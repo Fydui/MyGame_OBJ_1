@@ -1,0 +1,13 @@
+{
+	"Lv1":[
+		{"Time":02.00,"Button":1},
+		{"Time":02.50,"Button":1},
+		{"Time":02.50,"Button":3},
+		{"Time":03.00,"Button":4},
+		{"Time":03.20,"Button":2},
+		{"Time":03.70,"Button":3},
+		{"Time":04.50,"Button":4},
+		{"Time":05.00,"Button":1}
+
+	]
+}
