@@ -26,5 +26,5 @@ public slots:
     void buttonUI();
     void Volume();
     void PauseM();
-    void Music_Json();
+    //void Music_Json();
 };

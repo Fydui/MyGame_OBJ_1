@@ -8,6 +8,7 @@
 #include <QJsonDocument>
 #include <QJsonArray>
 #include <QJsonObject>
+#include <QByteArray>
 
 
 int Sum;        //图元计数的全局变量
@@ -117,12 +118,14 @@ void maincall::GameLvUI(ParametersStru* GameLM_1)//开始游戏
 
 }
 
-void Music_Json()
+/*void maincall::Music_Json()
 {
-    QJsonDocument Lv1_json = ReadTXT("E:/game/Lv1.json");//读取json文件
-   // QJsonDocument Lv1_json;
-    QJsonDocument::setObject(Lv1_json);
-    QByetArray byte_array = QJsonDocument::toJson(QJsonDocument::Compact);
+    QByteArray b_json;
+    QString Lv1_json = ReadTXT("E:/game/Lv1.json");//读取json文件
+    b_json = Lv1_json.toUtf8();
+
+    document.setObject(Lv1_json);
+    QByteArray byte_array = document.toJson(QJsonDocument::Compact);
     QString json_str(byte_array);
 
     QJsonParseError json_error;
@@ -159,7 +162,7 @@ void Music_Json()
         }
     }
 
-}
+}*/
 
 void maincall::MenuUI() //菜单按钮
 {
