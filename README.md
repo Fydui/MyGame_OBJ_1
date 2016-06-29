@@ -1,7 +1,7 @@
 # 此游戏为手机游戏 其名暂定为:Flower Dance
-*This is a music game, name not ready yet.Please do not have the too big hope.2333333
-*This program through the game engine - Life-fire-2D development, this engine based on Qt
-*The author of the game engine GitHub:https://github.com/sg-first/Life-Fire-2D-engine
+* This is a music game, name not ready yet.Please do not have the too big hope.2333333
+* This program through the game engine - Life-fire-2D development, this engine based on Qt
+* The author of the game engine GitHub:https://github.com/sg-first/Life-Fire-2D-engine
 
 #楼上是英文机翻
 * 此游戏正在开发ing,所以素材包未上传!!!
